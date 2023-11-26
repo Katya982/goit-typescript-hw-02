@@ -11,7 +11,7 @@ type Book = {
   likes: number,
   accounts: string[],
   status: string,
-  details?: number | BookDetails,
+  details?: BookDetails,
 }
 
 const page1: Book = {

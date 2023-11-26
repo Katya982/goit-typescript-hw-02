@@ -4,8 +4,8 @@
 */
 
 interface KeyValuePair<TKey, TValue> {
-  getKey(): TKey,
-  getValue(): TValue,
+  key: TKey,
+  value: TValue,
 }
 
 export { };

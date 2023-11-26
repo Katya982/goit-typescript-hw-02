@@ -13,7 +13,7 @@ type AllType = {
 
 type AllTypeInfo = Pick<AllType, 'name' | 'position' | 'color' | 'weight'>;
 
-function compare (top: AllType, bottom: AllType): AllTypeInfo {
+function compare (top: AllTypeInfo, bottom: AllTypeInfo): AllType {
   return {
     name: top.name,
     color: top.color,
